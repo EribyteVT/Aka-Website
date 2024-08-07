@@ -67,7 +67,7 @@ body {
 }
 
 .social-button:hover i {
-    color: #FF2D2D;
+    color: #FFFFFF;
 }
 
 .gridRow{
@@ -98,6 +98,8 @@ body {
     background-color: #dddddd;
     border-radius: 25px;
     border: 4px solid #FF0000;
+    padding-top:.33em;
+    padding-bottom:.33em;
 }
 
 .scheduleDay{
@@ -106,6 +108,8 @@ body {
     background-color: #dddddd;
     border-radius: 25px;
     border: 4px solid #FF0000;
+    padding-top:.33em;
+    padding-bottom:.33em;
 }
 
 
