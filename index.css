@@ -58,6 +58,9 @@ body {
     color: #FF0000;
     font-size: 5em;
     margin: 0 10px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .social-button i {
@@ -176,3 +179,30 @@ footer {
 footer a:visited{
     color:white;
   }
+
+
+  .tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: red;
+    text-align: center;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevent the tooltip from wrapping */
+    font-size: 0.6em;
+}
+
+.social-button:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
