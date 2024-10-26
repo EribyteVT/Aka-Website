@@ -48,7 +48,7 @@ window.onload = function() {
         //as defined by any stream starting between now and 7 days worth of MS in the future. This is a bad solution
         var streams = []
         console.log("Got response")
-        object = JSON.parse(Http.responseText)
+        object = JSON.parse(Http.responseText)['data']
         console.log(object)
 
         //loop through and create a list of better stream objects
